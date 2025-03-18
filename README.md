@@ -1,4 +1,4 @@
-# Alura Voz - Churn Prediction - Data Challenge
+# Alura Challenge - Churn Prediction
 Esse projeto faz parte do primeiro desafio de Ciência de Dados proposto pela plataforma de ensino Alura
 
 ## Objetivo:
@@ -11,46 +11,46 @@ Para esse projeto, decidimos seguir um roteiro simplificado de entendimento do n
 Por fim, um método capaz de predizer o Churn para cada cliente individualmente será proposto, buscando usufruir de técnicas e modelos de aprendizado de máquina, gerando uma avaliação individual para cada cliente de acordo com as características presentes no cadastro.
 
 ## Métodos utilizados
-Análise exploratória
-Visualização e processamento dos dados
-Técnicas de over-sampling para balanceamento
-Machine Learning
-Modelos de classificação como Random Forest Classifier
-Técnicas de avaliação de modelos
+* Análise exploratória
+* Visualização e processamento dos dados
+* Técnicas de over-sampling para balanceamento
+* Machine Learning
+* Modelos de classificação como Random Forest Classifier
+* Técnicas de avaliação de modelos
 
 
 ## Tecnologias utilizadas
-Python
-Pandas, Numpy
-Matplotlib, Seaborn, Plotly
-Scikit-Learn
-Imblearn
-Jupyter Notebook
-Descrição do projeto
+* Python
+* Pandas, Numpy
+* Matplotlib, Seaborn, Plotly
+* Scikit-Learn
+* Imblearn
+* Jupyter Notebook
+* Descrição do projeto
 
 Esse projeto tem como objetivo a identificação e a classificação de clientes com maiores possibilidades para ocorrência de Churn, sendo assim, é fundamental entendermos as informações presentes no dataset fornecido, então temos as seguintes colunas:
 
-customerID: ID de identificação unico de cliente
-Churn: Se o cliente deixou a companhia ou não
-gender: gênero (masculino ou feminino)
-SeniorCitizen: Se o cliente possui mais de 65 anos
-Partner: Se o cliente possui um companheiro(a) ou não
-Dependents: Se o cliente possui dependentes ou não
-tenure: período de duração do contrato
-PhoneService: Se possui serviço de telefonia
-MultipleLines: Se possui mais de uma linha
-InternetService: Se possui serviço de internet
-OnlineSecurity: Se possui uma inscrição adicional para segurança online
-OnlineBackup: Se possui uma inscrição adicional para realização de backup online
-DeviceProtection: Se possui uma assinatura adicional para proteção de aparelhos
-TechSupport: Se possui uma inscrição adicional para suporte técnico
-StreamingTV: Se possui uma inscrição de TV via Streaming
-StreamingMovies: Se possui inscrição de Streaming
-Contract: Tipo de contrato
-PaperlessBilling: Se o cliente prefere receber a conta online
-PaymentMethod: Método de pagamento
-Charges.Monthly: Valor total da conta do cliente por mês
-Charges.Total: Valor total gasto pelo cliente
+* `customerID`: ID de identificação unico de cliente
+* `Churn`: Se o cliente deixou a companhia ou não
+* `gender`: gênero (masculino ou feminino)
+* `SeniorCitizen`: Se o cliente possui mais de 65 anos
+* `Partner`: Se o cliente possui um companheiro(a) ou não
+* `Dependents`: Se o cliente possui dependentes ou não
+* `tenure`: período de duração do contrato
+* `PhoneService`: Se possui serviço de telefonia
+* `MultipleLines`: Se possui mais de uma linha
+* `InternetService`: Se possui serviço de internet
+* `OnlineSecurity`: Se possui uma inscrição adicional para segurança online
+* `OnlineBackup`: Se possui uma inscrição adicional para realização de backup online
+* `DeviceProtection`: Se possui uma assinatura adicional para proteção de aparelhos
+* `TechSupport`: Se possui uma inscrição adicional para suporte técnico
+* `StreamingTV`: Se possui uma inscrição de TV via Streaming
+* `StreamingMovies`: Se possui inscrição de Streaming
+* `Contract`: Tipo de contrato
+* `PaperlessBilling`: Se o cliente prefere receber a conta online
+* `PaymentMethod`: Método de pagamento
+* `Charges.Monthly`: Valor total da conta do cliente por mês
+* `Charges.Total`: Valor total gasto pelo cliente
 
 
 Mais detalhes do processo realizado durante a análise pode ser encontrado no arquivo churn-prediction.ipynb
